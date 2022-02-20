@@ -4,6 +4,7 @@ const inquirer = require('inquirer');
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
+const ContentHTMLGenerator = require('./lib/ContentHTMLGenerator');
 let teamManagerDetailsInput = [];
 let teamMembersInput = [];
 let teamManager;
@@ -122,7 +123,9 @@ function createTeamProfile() {
 
 function prepareIndexHtml() {
     const fileName = './dist/manager.html';
-    writeToFile(fileName, JSON.stringify(teamManager));
+    // writeToFile(fileName, JSON.stringify(teamManager));
+    const htmlContentObj = new ContentHTMLGenerator(teamManager);
+    writeToFile(fileName, htmlContentObj.getCreatedHTMLContent());
 }
 
 function writeToFile(fileName, data) {
