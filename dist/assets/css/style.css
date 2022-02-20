@@ -1,0 +1,85 @@
+.myTeam{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    border: 5px;
+    /* border-right: 5px solid rgb(21, 21, 100); */
+}
+
+header, main, footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    border: 5px;
+    /* border-right: 5px solid rgb(21, 21, 100); */
+}
+
+main {
+    width: 80%;
+}
+
+h1, header{
+    color: white;
+    background-color: rgba(249, 4, 4, 0.783);
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    /* border: 5px; */
+    /* border-right: 5px solid rgb(21, 21, 100); */
+}
+
+.member {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content:flex-start; */
+    /* align-items:center; */
+    background-color: gainsboro;
+    width: 28%;
+    margin: 2%;
+    border-radius: 2px;
+    /* border: 2px; */
+    /* border-right: 5px solid rgb(21, 21, 100); */
+}
+
+.member-details {
+    background-color: white;
+    border: 10px solid gainsboro;
+    /* border-color: gainsboro; */
+    /* margin: 5%; */
+    /* padding: gainsboro 5%; */
+    /* padding: 5%; */
+    margin-bottom: 20px;
+}
+
+.member-item {
+    /* margin: 5px; */
+    margin: 0px;
+    border: 1px solid gainsboro;
+    padding: 15px;
+
+}
+
+.member-header {
+    /* display: inline-block; */
+    padding: 5px;
+    /* margin-top: 0px; */
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgba(0, 80, 252, 0.824);
+}
