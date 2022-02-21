@@ -83,3 +83,54 @@ h1, header{
     color: white;
     background-color: rgba(0, 80, 252, 0.824);
 }
+
+/* Big Screens - display row and less pixel image  */
+@media screen and (max-width: 3048px) {
+    
+    .member {
+        width: 45%;
+        min-width: 330px;
+        max-width: 420px;
+    }
+ 
+} 
+
+/* Big Screens - display row and less pixel image  */
+ @media screen and (max-width: 1408px) {
+    
+    .member {
+        width: 45%;
+        min-width: 330px;
+        max-width: 400px;
+    }
+ 
+}
+
+/* Tablets - display row and less pixel image  */
+@media screen and (max-width: 992px) {
+    .member {
+        width: 50%;
+        min-width: 330px;
+        max-width: 400px;
+    }
+
+}
+  
+  /* Large smartPhones - display column and large pixel image  */
+  @media screen and (max-width: 768px) {
+    .member {
+        width: 60%;
+        min-width: 330px;
+        max-width: 400px;
+    }
+    
+}
+
+  /* Small smartphones  - display column and less pixel image */
+@media screen and (max-width: 576px) {
+    .member {
+        width: 85%;
+        min-width: 330px;
+    }
+    
+}
