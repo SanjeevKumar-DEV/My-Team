@@ -88,7 +88,7 @@ h1, header{
 @media screen and (max-width: 3048px) {
     
     .member {
-        width: 45%;
+        width: 28%;
         min-width: 330px;
         max-width: 420px;
     }
@@ -99,7 +99,7 @@ h1, header{
  @media screen and (max-width: 1408px) {
     
     .member {
-        width: 45%;
+        width: 28%;
         min-width: 330px;
         max-width: 400px;
     }
