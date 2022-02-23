@@ -1,7 +1,9 @@
 ![GNU GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 # My Team
 
-[Application URL  ](https://github.com/SanjeevKumar-DEV/My-Team) 
+[Demo Video URL 1](https://drive.google.com/file/d/125Vb9Rk8RK4zj8vASQkXFp_wkcYj2wYz/view)
+
+[Demo Video URL 2](https://drive.google.com/file/d/1qK15XDBzs--lH1umJ0nIC2Ac8uonFwtO/view) 
 
 [Repository URL ](https://github.com/SanjeevKumar-DEV/My-Team)
 
