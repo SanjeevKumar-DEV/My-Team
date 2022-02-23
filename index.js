@@ -122,7 +122,7 @@ function createTeamProfile() {
 // prepare index.html
 
 function prepareIndexHtml() {
-    const fileName = './dist/manager.html';
+    const fileName = './dist/index.html';
     // writeToFile(fileName, JSON.stringify(teamManager));
     const htmlContentObj = new ContentHTMLGenerator(teamManager);
     writeToFile(fileName, htmlContentObj.getCreatedHTMLContent());
